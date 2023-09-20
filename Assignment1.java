@@ -6,6 +6,15 @@ import java.util.Scanner;
 public class Assignment1 {
   public static void main(String[] args) {
 
+    String finalString;
+    double celsius;
+    int randomNumber;
+
+    printInitials();
+    celsius = temperaturePrompt();
+    finalString = stringPrompt();
+    randomNumber = randomNumberGenerator();
+
   }
   public static void printInitials() {
     System.out.println("BBBB    CCCC");
