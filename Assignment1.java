@@ -2,6 +2,10 @@
 
 public class Assignment1 {
   public static void main(String[] args) {
-    // Add your code here
+    System.out.println("BBBB    CCCC");
+    System.out.println("B   B  C    ");
+    System.out.println("BBBB   C    ");
+    System.out.println("B   B  C    ")
+    System.out.println("BBBB    CCCC")
   }
 }
