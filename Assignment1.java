@@ -1,5 +1,6 @@
 // Import libraries here
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Assignment1 {
@@ -23,5 +24,11 @@ public class Assignment1 {
       String reversed = new StringBuilder(inputString).reverse().toString();
       String trimmed = reversed.substring(1, 4);
     }
+    int min = 32;
+    int max = 16384;
+
+    Random random = new Random();
+
+    int randomNumber = random.nextInt(max - min + 1) + min;
   }
 }
