@@ -15,6 +15,8 @@ public class Assignment1 {
     finalString = stringPrompt();
     randomNumber = randomNumberGenerator();
 
+    System.out.println("New string is: " + celsius + finalString + randomNumber);
+
   }
   public static void printInitials() {
     System.out.println("BBBB    CCCC");
