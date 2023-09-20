@@ -6,3 +6,5 @@ compile:
 	javac $(filename).java
 run:
 	java $(filename).java
+clean_files:
+	rm -f $(filename).class
