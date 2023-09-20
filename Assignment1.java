@@ -35,7 +35,7 @@ public class Assignment1 {
   public static double temperaturePrompt() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Input temperature in fahrenheit: ");
-    return scanner.nextDouble() * (5/9) + 32;
+    return (scanner.nextDouble() - 32) * (5/9);
   }
   public static int randomNumberGenerator() {
       int min = 32;
